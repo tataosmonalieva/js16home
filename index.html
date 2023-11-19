@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <a href="#"> <img src="https://cdn.icon-icons.com/icons2/3834/PNG/96/milkshake_drink_cup_coffee_party_icon_235252.png" alt=""></a>
+
+    <nav>
+        <button id="test1">Меню напитков</button>
+        <button>Домой</button>
+        <button>Контакты</button>
+        <button id="test">Поиск коктейлей</button>
+
+
+    </nav>
+
+</header>
+<div class="container">
+    <div class="search-container">
+        <div class="input-wrap">
+            <label for="all">Все коктейли</label>
+            <input type="radio" id="all" name="type">
+        </div>
+        <div class="input-wrap">
+            <label for="searchInput">Найти коктейль</label>
+            <input type="radio" id="searchInput" name="type">
+        </div>
+    </div>
+
+
+    <div class="search-wrapper hidden">
+        <div class="search-wrap">
+
+            <div class="search-card">
+                <input type="text" placeholder="Введите название" id="inputBtn">
+                <button id="searchBtn">Найти</button>
+
+            </div>
+            <h1>Информация о коктейле...</h1>
+        </div>
+
+        <div class="subtitle-card">
+            <img src="" alt="" id="imgText">
+
+            <div class="subtitle-container">
+
+                <p id="nameText"></p>
+                <p id="categoryText"></p>
+                <p id="instructionText"></p>
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="row">
+
+    </div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
